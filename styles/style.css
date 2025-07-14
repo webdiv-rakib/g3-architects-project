@@ -8,3 +8,42 @@
 body {
     font-family: Work Sans;
 }
+
+header {
+    background-color: #FF900E1A;
+    padding-top: 50px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+}
+
+.btn{
+    padding: 21px 24px;
+}
