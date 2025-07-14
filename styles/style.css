@@ -177,7 +177,7 @@ ul li a {
     }
 
     .team-details {
-        width: max-content;
+        width: 100%;
         text-align: center;
     }
 
