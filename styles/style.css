@@ -157,4 +157,28 @@ ul li a {
         padding: 0px 5px;
     }
 
+    /* team section responsive */
+    .team-container {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .teams {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+    }
+
+    #team-section {
+        margin-top: 20px;
+    }
+
+    .team-1 {
+        width: 100%;
+    }
+
+    .team-details {
+        width: max-content;
+        text-align: center;
+    }
+
 }
