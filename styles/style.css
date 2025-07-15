@@ -226,6 +226,7 @@ ul li a {
 
     #team-section {
         margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .team-1 {
@@ -237,4 +238,37 @@ ul li a {
         text-align: center;
     }
 
+    /* Feature section responsive */
+    #feature-section {
+        padding: 0;
+    }
+
+    .feature-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 0px;
+        padding-right: 0px;
+        gap: 0px;
+    }
+
+    .feature-left {
+        text-align: center;
+        max-width: 586px;
+    }
+
+    .feature-card {}
+
+    .architect-img {
+        width: 100%;
+    }
+
+    .year {
+        margin: 0 auto;
+        padding: 21px 24px;
+    }
+
+    .btn-position {
+
+        text-align: center;
+    }
 }
