@@ -230,6 +230,17 @@ ul li a {
     margin-top: 50px;
 }
 
+/* Footer section design */
+.footer-container {
+    margin: 0px 160px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    padding: 39px 410px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
 /* Responsive for medium device */
 @media screen and (max-width: 576px) {
     * {
@@ -360,5 +371,12 @@ ul li a {
 
     .icon {
         max-width: 40px;
+    }
+
+    /* Footer responsive */
+    .footer-container {
+        margin: 0px;
+        padding: 20px;
+        margin-top: 20px;
     }
 }
