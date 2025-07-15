@@ -133,7 +133,6 @@ ul li a {
     display: flex;
     justify-content: center;
     gap: 146px;
-    border: 2px solid;
 }
 
 .feature-left {
@@ -240,7 +239,8 @@ ul li a {
 
     /* Feature section responsive */
     #feature-section {
-        padding: 0;
+        padding: 0px 5px;
+        margin-bottom: 20px;
     }
 
     .feature-container {
@@ -263,6 +263,7 @@ ul li a {
     }
 
     .year {
+        width: 100%;
         margin: 0 auto;
         padding: 21px 24px;
     }
