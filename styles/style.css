@@ -180,6 +180,7 @@ ul li a {
 /* Facts section design */
 .fact-container {
     padding: 0px 160px;
+    margin-bottom: 180px;
 }
 
 .fact-reward {
@@ -288,8 +289,6 @@ ul li a {
         max-width: 586px;
     }
 
-    .feature-card {}
-
     .architect-img {
         width: 100%;
     }
@@ -301,7 +300,25 @@ ul li a {
     }
 
     .btn-position {
-
         text-align: center;
+    }
+
+    /* Facts section responsive */
+    .fact-container {
+        padding: 0px 0px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .reward-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .fact-reward {
+        width: 100%;
     }
 }
